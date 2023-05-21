@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude: " />
+
+    <TextView
+        android:id="@+id/textLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude: " />
+
+    <TextView
+        android:id="@+id/textTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature: " />
+
+</LinearLayout>

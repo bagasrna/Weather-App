@@ -31,7 +31,7 @@
         android:id="@+id/btnRequest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="296dp"
         android:text="Volley"
         app:layout_constraintEnd_toStartOf="@+id/btnRetrofit"
         app:layout_constraintHorizontal_bias="0.5"
@@ -47,5 +47,16 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnRequest"
         app:layout_constraintTop_toTopOf="@+id/btnRequest" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Aplikasi Cuaca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTime" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
